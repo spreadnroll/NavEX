@@ -41,3 +41,26 @@ h1 {
     margin:auto
     
 }
+
+#menu-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end ;
+    order: 4;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: inline;
+        
+    }
+
+    .searchbar {
+        display: none;
+    }
+}
+
